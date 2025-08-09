@@ -1,3 +1,4 @@
+#![allow(unused_variables)]
 fn id<T>(x: T) -> T {
     x
 }
@@ -112,4 +113,5 @@ fn main() {
     let summary = Summary::summarize(&ss);
     println!("{}",summary);
     notify(ss);
+    let test = 12;
 }
